@@ -1,0 +1,102 @@
+body{
+    display: flex;
+    flex-direction: column;
+
+    
+}
+header{
+    background-color: rgb(0, 184, 240);
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+nav{
+    display: flex;
+     justify-content: space-evenly;
+    background-color: rgb(36, 169, 209);
+    align-items: center;
+}
+
+nav a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+img{
+    height: 180px
+}
+
+.card h2{
+    font-size: 14px;
+    width: 180px;
+}
+
+.cards{
+    
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+
+}
+
+.card{
+    background-color: rgba(218, 218, 218, 0.548);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    border-radius: 7px;
+    color: black;
+    text-decoration: none;
+}
+
+.card small{
+    font-size: 9px;
+}
+
+header img{
+    height: 42px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+header input{
+    width: 350px;
+
+}
+
+.historia{
+    background-color:rgb(151, 229, 253);
+    padding: 15px;
+    border-radius: 7px;
+}
+
+.historia p{
+    text-align: justify;
+}
+
+.historia div{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    
+}
+
+h1{
+    text-align: center;
+    font-family: 'heinan';
+}
+
+@font-face {
+    font-family: 'heinan';
+    src: url(HEINAN.otf);
+}
