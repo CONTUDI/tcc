@@ -38,7 +38,7 @@ img{
 
 .cards{
     
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.356);
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -48,13 +48,13 @@ img{
 }
 
 .card{
-    background-color: rgba(160, 160, 160, 0.541);
+    background-color: rgba(73, 66, 66, 0.295);
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 40px;
     border-radius: 7px;
-    color: black;
+    color: rgb(29, 28, 28);
     text-decoration: none;
 }
 
@@ -69,8 +69,7 @@ header img{
 }
 
 header input{
-    width: 600px;
-    height:30px ;
+    width: 350px;
 
 }
 
